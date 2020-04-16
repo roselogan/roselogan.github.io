@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+body,html {
+    background-color: lightcoral !important;
+}
+header {
+    background-image: url(https://i.etsystatic.com/7286364/r/il/7822e2/1617550717/il_570xN.1617550717_igt5.jpg) !important;
+}
+
+/*overwritten styles*/
+
+.navbar-brand {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.site-heading > h1 {
+    color: lightblue;
+}
+
+body {
+    color: white;
+}
+
+p > a {
+    text-decoration: none;
+}
+/**/
+
+.subtitle-fx {
+    color: white;
+}
+.subtitle-fx:hover {
+    outline: 2px solid;
+    cursor: pointer;
+    border-radius: .5px;
+    text-decoration: none !important;
+}
+
+.divide {
+    width: 100%;
+    height: 120px;
+    background-image: url("https://www.hdwallpapers.in/walls/special_pink_roses-wide.jpg");
+}
+
+#myHobbies {
+    margin-top: 20px;
+}
+#myResume {
+    margin-bottom: 20px;
+}
